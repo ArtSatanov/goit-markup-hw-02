@@ -1,0 +1,10 @@
+:root {
+   --body-text-color: #434455;
+   --bg-color:#FFFFFF;
+}
+
+body{
+   font-family: roboto;
+   color: var(--body-text-color);
+   background-color: var(--bg-color);
+}
