@@ -42,7 +42,7 @@ body{
 }
 
 .logo {
-   font-family: 'Raleway';
+   font-family: 'Raleway',sans-serif;
    font-weight: 800;
    font-size: 18px;
    line-height: 1.17;
@@ -189,4 +189,19 @@ body{
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
+}
+
+/* Footer */
+
+.footer {
+   background-color: var(--dark-color);
+   
+}
+
+.footer-logo {
+   color: var(--light-bg-color);
+}
+
+.footer-desc {
+   color: var(--light-bg-color);
 }
