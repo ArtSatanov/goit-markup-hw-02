@@ -4,10 +4,8 @@
    --primary-brand-color: #4D5AE5; /* CTAs Focused Active states Links */
    --pressed-state-color: #404BBF; /* CTAs */
    --dark-color: #2E2F42; /* Overlays Shadows Headings logo*/
+   --light-bg-color: #F4F4FD; /* Light mode backgrounds Light mode Dialogs/alerts */
    
-
-
-
 }
 
 body{
@@ -16,6 +14,7 @@ body{
    background-color: var(--bg-color);
    
 }
+
 .visually-hidden {
    position: absolute;
    width: 1px;
@@ -29,16 +28,19 @@ body{
    clip: rect(0 0 0 0);
    overflow: hidden;
 }
+
 .current.link {
    color: var(--pressed-state-color);
 }
+
 .link {
    text-decoration: none;
 }
+
 .list {
    list-style: none;
-   font-style: normal;
 }
+
 .logo {
    font-family: 'Raleway';
    font-weight: 800;
@@ -47,9 +49,12 @@ body{
    letter-spacing: 0.03em;
    text-transform: uppercase;
 }
+
 .logo-lead { 
    color: var(--primary-brand-color); 
 }
+
+/* Header */
 
 .header {}
 
@@ -79,8 +84,12 @@ body{
 
 .header-cont-link {
    font-weight: 400;
+   font-style: normal;
    color: var(--main-text-color);
 }
+
+/* Hero section */
+
 .hero { 
    background-color: var(--dark-color); 
 }
@@ -98,6 +107,9 @@ body{
    color: var(--bg-color);
    background-color: var(--primary-brand-color);
 }
+
+/* Feature section */
+
 .features {}
 
 .features-title {}
@@ -116,6 +128,63 @@ body{
 }
 
 .features-desc {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+}
+
+/* Examples */
+
+.examples {}
+
+.examples-title {
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.11;
+   letter-spacing: 0.02em;
+   text-transform: capitalize;
+   color: var(--dark-color);
+}
+
+.examples-list {}
+
+.examples-item {}
+
+.examples-img {}
+
+/* Our Team */
+
+.team {
+   background-color: var(--light-bg-color);
+}
+
+.team-title {
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.11;
+   letter-spacing: 0.02em;
+   text-transform: capitalize;
+   color: var(--dark-color);
+}
+
+.team-list {}
+
+.team-item {
+   background-color: var(--bg-color);
+}
+
+.team-img {}
+
+.team-subtitle {
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+   color: var(--dark-color);
+}
+
+.team-desc {
    font-weight: 400;
    font-size: 16px;
    line-height: 1.5;
