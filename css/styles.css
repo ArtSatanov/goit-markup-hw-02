@@ -1,9 +1,11 @@
 :root {
    --main-text-color: #434455;
-   --bg-color:#FFFFFF;
+   --bg-color:#FFFFFF; /* Header, team card background */
    --primary-brand-color: #4D5AE5; /* CTAs Focused Active states Links */
    --pressed-state-color: #404BBF; /* CTAs */
    --dark-color: #2E2F42; /* Overlays Shadows Headings logo*/
+   
+
 
 
 }
@@ -66,4 +68,21 @@ body{
 .header-cont-link {
    font-weight: 400;
    color: var(--main-text-color);
+}
+.hero {
+   background-color: var(--dark-color);
+}
+
+.hero-title {
+   font-weight: 700;
+   font-size: 56px;
+   line-height: 1.07;
+   letter-spacing: 0.02em;
+   color: var(--bg-color)
+}
+
+.hero-btn {
+   cursor: pointer;
+   background-color: var(--primary-brand-color)
+   color: var(var(--bg-color))
 }
