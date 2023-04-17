@@ -1,200 +1,250 @@
 :root {
-   --main-text-color: #434455;
-   --bg-color:#FFFFFF; /* Header, team card background */
-   --primary-brand-color: #4D5AE5; /* CTAs Focused Active states Links */
-   --pressed-state-color: #404BBF; /* CTAs */
-   --dark-color: #2E2F42; /* Overlays Shadows Headings logo*/
-   --light-bg-color: #F4F4FD; /* Light mode backgrounds Light mode Dialogs/alerts */
-   
+  --main-text-color: #434455;
+  --bg-color: #ffffff; /* Header, team card background */
+  --primary-brand-color: #4d5ae5; /* CTAs Focused Active states Links */
+  --pressed-state-color: #404bbf; /* CTAs */
+  --dark-color: #2e2f42; /* Overlays Shadows Headings logo*/
+  --light-bg-color: #f4f4fd; /* Light mode backgrounds Light mode Dialogs/alerts */
+  --acccent-color: #E7E9FC; /* Accent color Hairlines Subtle backgrounds */
 }
 
-body{
-   font-family: Roboto, sans-serif;
-   color: var(--main-text-color);
-   background-color: var(--bg-color);
-   letter-spacing: 0.02em;
-   
+body {
+  font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: var(--main-text-color);
+  background-color: var(--bg-color);
+  letter-spacing: 0.02em;
 }
 
 .visually-hidden {
-   position: absolute;
-   width: 1px;
-   height: 1px;
-   margin: -1px;
-   border: 0;
-   padding: 0;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
 
-   white-space: nowrap;
-   clip-path: inset(100%);
-   clip: rect(0 0 0 0);
-   overflow: hidden;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .current.link {
-   color: var(--pressed-state-color);
+  color: var(--pressed-state-color);
 }
 
 .link {
-   text-decoration: none;
+  text-decoration: none;
 }
 
 .list {
-   list-style: none;
+  list-style: none;
 }
 
 .logo {
-   font-family: 'Raleway',sans-serif;
-   font-weight: 800;
-   font-size: 18px;
-   line-height: 1.17;
-   letter-spacing: 0.03em;
-   text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
-.logo-lead { 
-   color: var(--primary-brand-color); 
+.logo-lead {
+  color: var(--primary-brand-color);
 }
 
 .active-link:hover,
 .active-link:focus {
-   color: var(--pressed-state-color);
+  color: var(--pressed-state-color);
 }
 
 .active-btn:hover,
 .active-btn:focus {
-   background-color: var(--pressed-state-color);
+ color: var(--bg-color);
+  background-color: var(--pressed-state-color);
 }
 
 .title {
-   font-weight: 700;
-   font-size: 36px;
-   line-height: 1.11;
-   text-transform: capitalize;
-   color: var(--dark-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+  color: var(--dark-color);
 }
 
 .subtitle {
-   font-weight: 500;
-   font-size: 20px;
-   line-height: 1.2;
-   color: var(--dark-color)
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--dark-color);
 }
 
 .desc {
-   font-size: 16px;
-   line-height: 1.5;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--main-text-color);
 }
 
 /* Header*/
 
-.header {}
+.header {
+}
 
-.header-nav {}
+.header-nav {
+}
 
 .header-nav-logo,
-.header-nav-link { 
-   color: var(--dark-color); 
+.header-nav-link {
+  color: var(--dark-color);
 }
 
-.header-nav-link { 
-   font-weight: 500; 
+.header-nav-link {
+  font-weight: 500;
 }
 
-.header-nav-item {}
+.header-nav-item {
+}
 
 .header-nav-link,
 .header-cont-link {
-   font-size: 16px;
-   line-height: 1.5;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
-.header-cont-list {}
+.header-cont-list {
+}
 
-.header-cont-item {}
+.header-cont-item {
+}
 
 .header-cont-link {
-   font-style: normal;
-   color: var(--main-text-color);
+  font-style: normal;
+  color: var(--main-text-color);
 }
 
 /* Hero section - Studio*/
 
-.hero { 
-   background-color: var(--dark-color); 
+.hero {
+  background-color: var(--dark-color);
 }
 
 .hero-title {
-   font-weight: 700;
-   font-size: 56px;
-   line-height: 1.07;
-   color: var(--bg-color)
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  color: var(--bg-color);
 }
 
 .hero-btn {
-   cursor: pointer;
-   color: var(--bg-color);
-   background-color: var(--primary-brand-color);
+  cursor: pointer;
+  color: var(--bg-color);
+  background-color: var(--primary-brand-color);
 }
 
 /* Feature section - Studio*/
 
-.features {}
+.features {
+}
 
-.features-title {}
+.features-title {
+}
 
-.features-list {}
+.features-list {
+}
 
-.features-item {}
+.features-item {
+}
 
-.features-subtitle {}
+.features-subtitle {
+}
 
 .features-desc {
-
 }
 
 /* Examples - Studio*/
 
-.examples {}
+.examples {
+}
 
-.examples-title {}
+.examples-title {
+}
 
-.examples-list {}
+.examples-list {
+}
 
-.examples-item {}
+.examples-item {
+}
 
-.examples-img {}
+.examples-img {
+}
 
 /* Our Team - Studio*/
 
 .team {
-   background-color: var(--light-bg-color);
+  background-color: var(--light-bg-color);
 }
 
-.team-title {}
+.team-title {
+}
 
-.team-list {}
+.team-list {
+}
 
 .team-item {
-   background-color: var(--bg-color);
+  background-color: var(--bg-color);
 }
 
-.team-img {}
+.team-img {
+}
 
-.team-subtitle {}
+.team-subtitle {
+}
 
-.team-desc {}
+.team-desc {
+}
 
 /* Footer */
 
 .footer {
-   background-color: var(--dark-color);
-   
+  background-color: var(--dark-color);
 }
 
 .footer-logo {
-   color: var(--light-bg-color);
+  color: var(--light-bg-color);
 }
 
 .footer-desc {
-   color: var(--light-bg-color);
+  color: var(--light-bg-color);
 }
+
+/* main - portfolio */
+
+.portfolio {}
+
+.portfolio-btn-items {}
+
+.btn-item {}
+
+.portfolio-btn {
+   font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-weight: 500;
+   letter-spacing: 0.04em;
+   color: var(--primary-brand-color);
+   background-color: var(--light-bg-color);
+   border: 1px solid var(--acccent-color);
+   border-radius: 4px;
+   cursor: pointer;
+}
+
+.portfolio-list {}
+
+.portfolio-item {}
+
+.portfolio-link{}
+
+.portfolio-img {}
+
+.portfolio-subtitle {}
+
+.portfolio-desc {}
