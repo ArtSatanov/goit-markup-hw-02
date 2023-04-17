@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: var(--main-text-color);
   background-color: var(--bg-color);
   letter-spacing: 0.02em;
@@ -48,10 +48,11 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--primary-brand-color);
 }
 
 .logo-lead {
-  color: var(--primary-brand-color);
+  color: var(--dark-color);
 }
 
 .active-link:hover,
@@ -69,6 +70,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
   text-transform: capitalize;
   color: var(--dark-color);
 }
@@ -77,6 +79,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  text-align: center;
   color: var(--dark-color);
 }
 
@@ -100,7 +103,6 @@ body {
 .header-nav {
 }
 
-.header-nav-logo,
 .header-nav-link {
   color: var(--dark-color);
 }
@@ -119,8 +121,11 @@ body {
 }
 
 .header-cont-link {
-  font-style: normal;
   color: var(--main-text-color);
+}
+
+.header-address {
+  font-style: normal
 }
 
 /* Hero section - Studio*/
@@ -133,6 +138,8 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
   color: var(--bg-color);
 }
 
