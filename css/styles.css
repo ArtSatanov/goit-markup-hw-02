@@ -12,6 +12,7 @@ body{
    font-family: Roboto, sans-serif;
    color: var(--main-text-color);
    background-color: var(--bg-color);
+   letter-spacing: 0.02em;
    
 }
 
@@ -54,7 +55,37 @@ body{
    color: var(--primary-brand-color); 
 }
 
-/* Header */
+.active-link:hover,
+.active-link:focus {
+   color: var(--pressed-state-color);
+}
+
+.active-btn:hover,
+.active-btn:focus {
+   background-color: var(--pressed-state-color);
+}
+
+.title {
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.11;
+   text-transform: capitalize;
+   color: var(--dark-color);
+}
+
+.subtitle {
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 1.2;
+   color: var(--dark-color)
+}
+
+.desc {
+   font-size: 16px;
+   line-height: 1.5;
+}
+
+/* Header*/
 
 .header {}
 
@@ -75,7 +106,6 @@ body{
 .header-cont-link {
    font-size: 16px;
    line-height: 1.5;
-   letter-spacing: 0.02em;
 }
 
 .header-cont-list {}
@@ -83,12 +113,11 @@ body{
 .header-cont-item {}
 
 .header-cont-link {
-   font-weight: 400;
    font-style: normal;
    color: var(--main-text-color);
 }
 
-/* Hero section */
+/* Hero section - Studio*/
 
 .hero { 
    background-color: var(--dark-color); 
@@ -98,7 +127,6 @@ body{
    font-weight: 700;
    font-size: 56px;
    line-height: 1.07;
-   letter-spacing: 0.02em;
    color: var(--bg-color)
 }
 
@@ -108,7 +136,7 @@ body{
    background-color: var(--primary-brand-color);
 }
 
-/* Feature section */
+/* Feature section - Studio*/
 
 .features {}
 
@@ -118,34 +146,17 @@ body{
 
 .features-item {}
 
-.features-subtitle {
-
-   font-weight: 500;
-   font-size: 20px;
-   line-height: 1.2;
-   letter-spacing: 0.02em;
-   color: var(--dark-color);
-}
+.features-subtitle {}
 
 .features-desc {
-   font-weight: 400;
-   font-size: 16px;
-   line-height: 1.5;
-   letter-spacing: 0.02em;
+
 }
 
-/* Examples */
+/* Examples - Studio*/
 
 .examples {}
 
-.examples-title {
-   font-weight: 700;
-   font-size: 36px;
-   line-height: 1.11;
-   letter-spacing: 0.02em;
-   text-transform: capitalize;
-   color: var(--dark-color);
-}
+.examples-title {}
 
 .examples-list {}
 
@@ -153,20 +164,13 @@ body{
 
 .examples-img {}
 
-/* Our Team */
+/* Our Team - Studio*/
 
 .team {
    background-color: var(--light-bg-color);
 }
 
-.team-title {
-   font-weight: 700;
-   font-size: 36px;
-   line-height: 1.11;
-   letter-spacing: 0.02em;
-   text-transform: capitalize;
-   color: var(--dark-color);
-}
+.team-title {}
 
 .team-list {}
 
@@ -176,20 +180,9 @@ body{
 
 .team-img {}
 
-.team-subtitle {
-   font-weight: 500;
-   font-size: 20px;
-   line-height: 1.2;
-   letter-spacing: 0.02em;
-   color: var(--dark-color);
-}
+.team-subtitle {}
 
-.team-desc {
-   font-weight: 400;
-   font-size: 16px;
-   line-height: 1.5;
-   letter-spacing: 0.02em;
-}
+.team-desc {}
 
 /* Footer */
 
